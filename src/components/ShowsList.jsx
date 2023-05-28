@@ -74,7 +74,7 @@ const ShowsList = () => {
                 onClick={handlePrevPage}
                 disabled={page === 1}
               >
-                Anterior
+                Prev
               </button>
             </li>
             {getPageNumbers().map((pageNumber) => (
@@ -98,7 +98,7 @@ const ShowsList = () => {
                 onClick={handleNextPage}
                 disabled={page === totalPages}
               >
-                Siguiente
+                Next
               </button>
             </li>
           </ul>
