@@ -1,0 +1,9 @@
+body {
+    background-color: #F4F4F4;
+  }
+  
+  /* Si deseas agregar un poco de espacio adicional a los elementos de la página, puedes usar el siguiente estilo */
+  .container {
+    margin-top: 20px;
+  }
+  
